@@ -6,7 +6,8 @@
 		}
 	},
 	"contracts": {
-		"BottomShot": "./contracts/BottomShot.cdc"
+		"BottomShot": "./contracts/BottomShot.cdc",
+		"CatMoji": "./contracts/CatMoji.cdc"
 	},
 	"networks": {
 		"emulator": "127.0.0.1:3569",
@@ -19,14 +20,14 @@
 			"key": "5bba5f1d0df2599b266bd16ab7bf30b70ec6a5fb3730b562416fce6af1f6e5cc"
 		},
 		"testnet-account": {
-			"address": "replace-with-your-address",
-			"key": "replace-with-your-key"
+			"address": "replace-me",
+			"key": "replace-me"
 		}
 	},
 	"deployments": {
 		"testnet": {
 			"testnet-account": [
-				"BottomShot"
+				"CatMoji"
 			]
 		}
 	}
